@@ -38,9 +38,9 @@ public class Main {
         List<String> pessoas_do_sexo_masculino = new ArrayList<>();
         List<String> pessoas_do_sexo_feminino = new ArrayList<>();
         for (Pessoas pessoa:pessoas){
-            if (pessoa.getGenero().equals("M")||pessoa.getGenero().equals("Masculino")){
+            if (pessoa.getGenero().equals("m")||pessoa.getGenero().equals("Masculino")){
                 pessoas_do_sexo_masculino.add(pessoa.getNome());
-            }else if (pessoa.getGenero().equals("F")||pessoa.getGenero().equals("Feminino")){
+            }else if (pessoa.getGenero().equals("f")||pessoa.getGenero().equals("Feminino")){
                 pessoas_do_sexo_feminino.add(pessoa.getNome());
             }
         }
